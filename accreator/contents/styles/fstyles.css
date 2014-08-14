@@ -1,0 +1,107 @@
+@font-face {
+	font-family: ubn;
+	src: url('../fonts/ub.ttf');
+}
+body {
+	background:#99FF99;
+}
+.body {
+	background:#99FF99;
+	background-image: url('../ressources/InscriFrog.png');
+	background-repeat:no-repeat;
+	background-position:center top 50px;
+}
+.bodyresult {
+	background:#99FF99;
+	background-image: url('../ressources/InscriFrogResult.png');
+	background-repeat:no-repeat;
+	background-position:center top 85px;
+}
+.titre {
+	text-align:center; 
+	font-weight:bold; 
+	font-family:ubn; 
+	font-size:30px;
+}
+.gresult {
+	font-family:ubn;
+	font-size:15px;
+	color:green;
+	position:relative;
+	top:110px;
+	text-align:center;
+}
+.bresult {
+	font-family:ubn;
+	font-size:15px;
+	color:red;
+	position:relative;
+	top:110px;
+	text-align:center;
+}
+input.text {
+	border: 0px solid #444444;
+    background:url('../ressources/InscriFrogInput.png') no-repeat; 
+    color:#888;
+	width:268px;
+	height:29px;
+    padding-left:7px;
+	padding-right:7px;
+	font-family:ubn;
+    font-size:20px;
+	text-align:center;
+}
+input.text:focus {
+	border: 0px solid #444444;
+    background:url('../ressources/InscriFrogInputHover.png') no-repeat; 
+    color:#888;
+	width:268px;
+	height:29px;
+    padding-left:7px;
+	padding-right:7px;
+	font-family:ubn;
+    font-size:20px;
+	text-align:center;
+}
+input.text:hover {
+	border: 0px solid #444444;
+    background:url('../ressources/InscriFrogInputHover.png') no-repeat; 
+    color:#888;
+	width:268px;
+	height:29px;
+    padding-left:7px;
+	padding-right:7px;
+	font-family:ubn;
+    font-size:20px;
+	text-align:center;
+}
+.button  {
+	border: 0px solid #444444;
+    background:url('../ressources/InscriFrogBtn.png') no-repeat right top; 
+    color:#000;
+	width:168px;
+	height:72px;
+    padding-left:4px;
+	position:absolute; 
+	top:398px; 
+	left:calc(50% + 50px);
+}
+.button:hover {
+	border: 0px solid #444444;
+    background:url('../ressources/InscriFrogBtnHover.png') no-repeat right top; 
+    color:#000;
+	width:200px;
+	height:120px;
+    padding-left:4px; 
+	position:absolute; 
+	top:370px; 
+	left:calc(50% + 35px);
+}
+input:focus {
+	outline:0; 
+}
+
+
+
+
+

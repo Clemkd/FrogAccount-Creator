@@ -1,0 +1,45 @@
+body {
+	background: url(resources/bg.png) repeat;
+}
+a.downloadbutton {
+	border: 0px solid #444444;
+    background:url('resources/downloadbtn.png') no-repeat; 
+	width:200px;
+	height:100px;
+}
+a.downloadbutton:hover {
+	border: 0px solid #444444;
+    background:url('resources/downloadbtnhover.png') no-repeat; 
+	width:200px;
+	height:100px;
+}
+a.downloadbutton:active {
+	border: 0px solid #444444;
+    background:url('resources/downloadbtnactive.png') no-repeat; 
+	width:200px;
+	height:100px;
+}
+a.banner {
+	border: 0px solid #444444;
+    background:url('resources/banner.png') no-repeat; 
+	width:567px;
+	height:151px;
+}
+a.testbutton {
+	border: 0px solid #444444;
+    background:url('resources/testbtn.png') no-repeat; 
+	width:200px;
+	height:100px;
+}
+a.testbutton:hover {
+	border: 0px solid #444444;
+    background:url('resources/testbtnhover.png') no-repeat; 
+	width:200px;
+	height:100px;
+}
+a.testbutton:active {
+	border: 0px solid #444444;
+    background:url('resources/testbtnactive.png') no-repeat; 
+	width:200px;
+	height:100px;
+}

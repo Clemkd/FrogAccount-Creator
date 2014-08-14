@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<HTML>
+	<!----------------------->
+	<!-- HTML - FORMULAIRE -->
+	<!----------------------->
+	<HEAD>
+		<META charset="UTF-8" name="author" content="clemz - FrogCreator" />
+		<link rel="stylesheet" href="contents/styles/fstyles.css" />
+		<script type="text/javascript" src="contents/scripts/fscripts.js"></script>
+		<TITLE>Création de votre compte</TITLE>
+	</HEAD>
+	<BODY class="body">
+		<form name="formulaire" method="post">
+			<input type="text" 		class="text" 	id="acc" 	name="acc" 		style="position:absolute; top:168px; left:calc(50% - 134px);"  />
+			<input type="password" 	class="text" 	id="psw" 	name="psw" 		style="position:absolute; top:228px; left:calc(50% - 134px);"  />
+			<input type="password" 	class="text" 	id="psw2" 	name="psw2" 	style="position:absolute; top:288px; left:calc(50% - 134px);"  />
+			<input type="text" 		class="text" 	id="email" 	name="email" 	style="position:absolute; top:348px; left:calc(50% - 134px);"  />
+			<input type="button" 	class="button"	onclick="try{formvalider(this.form);}catch(e){alert(e);}">
+		</form>
+		<div class="bresult" name="result" id="result"></div>
+	</BODY>
+</HTML>

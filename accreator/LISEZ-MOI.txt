@@ -1,0 +1,28 @@
+##########################################################
+
+			LISEZ-MOI !
+
+##########################################################
+
+- Il vous est conseillé d'installer ce pack sur un serveur
+  pouvant gérer les éléments PHP5 (version 5)
+
+- Le projet est open-source. Vous êtes libre de distribuer ou
+  modifier ce packtage. 
+
+- Pour tout problème : référencez vous directement au site
+  du créateur.
+
+
+ATTENTION : 
+Ce projet n'est purement pas professionnel.
+Le créateur est nullement responsable de vos actes !
+
+
+--------------------
+
+Merci d'aider à l'amélioration du projet !
+
+--------------------
+
+Didier C.
